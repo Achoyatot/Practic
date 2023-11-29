@@ -1,0 +1,18 @@
+﻿<Window x:Class="CollageDevices.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CollageDevices"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Логин"/>
+            <TextBox Name="tbLogin" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30" Width="200" Margin="0,0,0,10"/>
+            <TextBlock Text="Пароль"/>
+            <PasswordBox Name="tbPassword" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30" Width="200" Margin="0,0,0,10"/>
+            <Button Name="btnLogin" Content="Войти" Height="30" Width="120" Click="btnLogin_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
